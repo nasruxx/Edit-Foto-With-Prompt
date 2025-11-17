@@ -3,7 +3,7 @@ export const editImageWithGemini = async (
     prompt: string
 ): Promise<string> => {
     
-    const response = await fetch('/api/edit-image', {
+    const response = await fetch('/.netlify/functions/edit-image', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

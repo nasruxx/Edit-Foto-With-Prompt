@@ -1,12 +1,12 @@
 {
-  "name": "gemini-image-editor-vercel",
+  "name": "gemini-image-editor-netlify",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@google/genai": "^1.29.1"
   },
   "devDependencies": {
-    "@vercel/node": "^3.0.0",
+    "@netlify/functions": "^2.6.0",
     "typescript": "^5.0.0"
   }
 }
