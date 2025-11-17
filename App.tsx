@@ -46,6 +46,7 @@ const App: React.FC = () => {
       );
       const results = await Promise.all(editPromises);
       setEditedImages(results);
+      setPrompt(''); // Reset prompt on success
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'An unexpected error occurred.';
       setError(`Generation failed: ${errorMessage}`);
