@@ -1,0 +1,9 @@
+[build]
+  # Perintah utama untuk build frontend (Vite)
+  command = "npm run build"
+  # Direktori hasil build statis (frontend)
+  publish = "dist" 
+  
+[functions]
+  # Direktori tempat Netlify mencari kode fungsi serverless
+  directory = "netlify/functions"
